@@ -10,7 +10,7 @@
 		{
 			"label"         : "Html5: debug build",
 			"command"       : "haxelib",
-			"args"          : ["run", "lime", "build", "html5", "-debug", "-Dwebgl"],
+			"args"          : ["run", "lime", "build", "html5", "-debug", "-Dwebgl", "--port=3072"],
 			"problemMatcher": "$haxe"
 		}
 	]
