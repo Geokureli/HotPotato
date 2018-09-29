@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label"         : "Flash: debug build",
+			"command"       : "haxelib",
+			"args"          : ["run", "lime", "build", "flash", "-debug", "-Dfdb"],
+			"problemMatcher": "$haxe"
+		},
+		{
+			"label"         : "Html5: debug build",
+			"command"       : "haxelib",
+			"args"          : ["run", "lime", "build", "html5", "-debug", "-Dwebgl"],
+			"problemMatcher": "$haxe"
+		}
+	]
+}
